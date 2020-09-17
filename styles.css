@@ -1,0 +1,217 @@
+*{
+    margin : 0;
+    border : 0;
+}
+
+
+
+
+@media only screen and (max-width: 575px){
+
+    body{
+        background-color: red;
+    }
+
+    .page-web{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-web{
+        background-color: coral;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .header{
+        background-color: darkgreen;
+        width: 100%;
+        height: 100px;
+    }
+
+    .content-deals{
+        background-color: darkmagenta;
+        width: 100%;
+        height: 100px;
+    }
+
+    .content-shoes{
+        background-color: darkturquoise;
+        width: 100%;
+        height: 100px;
+    }
+
+    .content-teeshirt{
+        background-color: deeppink;
+        width: 100%;
+        height: 100px;
+    }
+
+    .content-accessories{
+        background-color: red;
+        width: 100%;
+        height: 100px;
+    }
+
+    .preorder{
+        background-color: goldenrod;
+        width: 100%;
+        height: 100px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+
+    body{
+        background-color: blue;
+    }
+
+    .page-web{
+        display: flex;
+        flex-flow: column ;
+        width: 100%;
+    }
+
+    .nav-web{
+        background-color: coral;
+        width: 100%;
+        height: 150px;
+        
+    }
+    
+    .header{
+        background-color: darkgreen;
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .miseenpage{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .content-deals{
+        background-color: darkmagenta;
+        width: 100%;
+        height: 150px;
+
+    }
+
+   
+    .content-shoes{
+        background-color: darkturquoise;
+        width: 50%;
+        height: 100px;
+        
+        
+    }
+
+    .content-teeshirt{
+        background-color: deeppink;
+        width: 50%;
+        height: 100px;
+        
+    }
+
+    .content-accessories{
+        background-color: red;
+        width: 50%;
+        height: 100px;
+    }
+
+    .preorder{
+        background-color: goldenrod;
+        width: 50%;
+        height: 100px;
+    }
+  
+
+
+}
+
+
+@media only screen and (min-width: 769px){
+
+    body{
+        background-color: green;
+    }
+
+    .page-web{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+
+    .nav-web{
+        background-color: coral;
+        width: 100%;
+        height: 150px;
+        
+    }
+    
+    .header{
+        background-color: darkgreen;
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .miseenpage{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+
+ 
+    .content-deals{
+        background-color: darkmagenta;
+        width: 100%;
+        height: 150px;
+        order: 2;
+
+    }
+
+ 
+
+    .content-shoes{
+        background-color: darkturquoise;
+        align-self: flex-start;
+        width: 50%;
+        height: 150px;
+        
+        
+    }
+
+    .content-teeshirt{
+        background-color: deeppink;
+        align-self: flex-end;
+        width: 50%;
+        height: 150px;
+        
+    }
+
+    .content-accessories{
+        background-color: forestgreen;
+        align-self: flex-start;
+        width: 50%;
+        height: 150px;
+    }
+
+    .preorder{
+        background-color: goldenrod;
+        align-self: flex-end;
+        width: 100%;
+        height: 150px;
+        order: 1;
+    }
+  
+
+    
+
+
+}
